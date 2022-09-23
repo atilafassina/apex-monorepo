@@ -1,12 +1,6 @@
 # Turborepo starter
 
-This is an official pnpm starter turborepo.
-
-## What's inside?
-
-This turborepo uses [pnpm](https://pnpm.io) as a package manager. It includes the following packages/apps:
-
-### Apps and Packages
+### Apps and Packages 🚗
 
 - `docs`: a [Next.js](https://nextjs.org) app
 - `web`: another [Next.js](https://nextjs.org) app
@@ -16,58 +10,46 @@ This turborepo uses [pnpm](https://pnpm.io) as a package manager. It includes th
 
 Each package/app is 100% [TypeScript](https://www.typescriptlang.org/).
 
-### Utilities
-
-This turborepo has some additional tools already setup for you:
+### Utilities 🤹
 
 - [TypeScript](https://www.typescriptlang.org/) for static type checking
 - [ESLint](https://eslint.org/) for code linting
 - [Prettier](https://prettier.io) for code formatting
+- [changesets](https://github.com/changesets/changesets) for managing releases according to SemVer
+- [pnpm](https://pnpm.io) for managing Node.js packages
 
-### Build
+### Usage
 
-To build all apps and packages, run the following command:
+Turbo caches build artifacts and is able to skip processes when there are no changes. To leverage that, it is recommended to use Turbo as the task runner for every task.
 
-```
-cd my-turborepo
-pnpm run build
-```
+To build all apps and packages:
 
-### Develop
-
-To develop all apps and packages, run the following command:
-
-```
-cd my-turborepo
-pnpm run dev
+```sh
+pnpm build
 ```
 
-### Remote Caching
+To develop all apps and packages:
 
-Turborepo can use a technique known as [Remote Caching](https://turborepo.org/docs/core-concepts/remote-caching) to share cache artifacts across machines, enabling you to share build caches with your team and CI/CD pipelines.
-
-By default, Turborepo will cache locally. To enable Remote Caching you will need an account with Vercel. If you don't have an account you can [create one](https://vercel.com/signup), then enter the following commands:
-
-```
-cd my-turborepo
-pnpm dlx turbo login
+```sh
+pnpm dev
 ```
 
-This will authenticate the Turborepo CLI with your [Vercel account](https://vercel.com/docs/concepts/personal-accounts/overview).
+Whenever neccessary to run only a certain set of workspaces, use the `--filter` flag:
 
-Next, you can link your Turborepo to your Remote Cache by running the following command from the root of your turborepo:
-
-```
-pnpm dlx turbo link
+```sh
+pnpm dev --filter workspace-name
 ```
 
-## Useful Links
+### Remote Caching ☁️
+
+Besides local caching, Turbo can also cache build artifacts in the cloud and share across members of a team and environments. The smallest setup for Remote Caching is with [Vercel](https://turborepo.org/docs/core-concepts/remote-caching#vercel).
+
+## Use Remote Caching on Deploys
+
+When using Turbo CLI it will automatically
+
+## Useful Links 📚
 
 Learn more about the power of Turborepo:
 
-- [Pipelines](https://turborepo.org/docs/core-concepts/pipelines)
-- [Caching](https://turborepo.org/docs/core-concepts/caching)
-- [Remote Caching](https://turborepo.org/docs/core-concepts/remote-caching)
-- [Scoped Tasks](https://turborepo.org/docs/core-concepts/scopes)
-- [Configuration Options](https://turborepo.org/docs/reference/configuration)
-- [CLI Usage](https://turborepo.org/docs/reference/command-line-reference)
+- [Turborepo Docs](https://turborepo.org/docs)
