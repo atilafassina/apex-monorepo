@@ -1,9 +1,9 @@
 # Apex Monorepo
 
-- Multiple apps deployed
-- Internal packages as shared dependencies
-- Changesets Bot for release management
-- Renovate Bot to keep dependencies automatically up-to-date
+- Automatic: Release, Changelog, Publishing, Dependency Updates
+- Internal and External Packages
+- Fast-Refresh and Hot-Reloading for Remix and Next.js
+- ESM and CJS support for published packages
 
 ## Workspaces 🚗
 
