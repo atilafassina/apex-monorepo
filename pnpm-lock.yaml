@@ -16,19 +16,19 @@ importers:
 
   apps/docs:
     specifiers:
-      '@remix-run/dev': ^1.7.2
-      '@remix-run/eslint-config': ^1.7.2
-      '@remix-run/node': ^1.7.2
-      '@remix-run/react': ^1.7.2
-      '@remix-run/serve': ^1.7.2
-      '@remix-run/vercel': ^1.7.2
-      '@types/react': ^18.0.15
-      '@types/react-dom': ^18.0.6
-      '@vercel/node': ^2.4.4
-      eslint: ^8.23.1
-      react: ^18.2.0
-      react-dom: ^18.2.0
-      typescript: ^4.7.4
+      '@remix-run/dev': 1.7.2
+      '@remix-run/eslint-config': 1.7.2
+      '@remix-run/node': 1.7.2
+      '@remix-run/react': 1.7.2
+      '@remix-run/serve': 1.7.2
+      '@remix-run/vercel': 1.7.2
+      '@types/react': 18.0.21
+      '@types/react-dom': 18.0.6
+      '@vercel/node': 2.5.18
+      eslint: 8.23.1
+      react: 18.2.0
+      react-dom: 18.2.0
+      typescript: 4.8.3
       ui: workspace:*
     dependencies:
       '@remix-run/node': 1.7.2_biqbaboplfbrettd7655fr4n2y
@@ -104,7 +104,7 @@ importers:
       eslint-config-custom: workspace:*
       react: 18.2.0
       tsconfig: workspace:*
-      tsup: ^6.2.3
+      tsup: 6.2.3
       typescript: 4.8.3
     devDependencies:
       '@types/react': 18.0.21
