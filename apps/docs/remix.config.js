@@ -1,15 +1,20 @@
+const INTERNAL_ESM_PACKAGES = ["ui"];
+const PACKAGES_PATHS = ["../../packages/ui"];
+
 /** @type {import('@remix-run/dev').AppConfig} */
 module.exports = {
   serverBuildTarget: "vercel",
   server: process.env.NODE_ENV === "development" ? undefined : "./server.js",
   /**
-   * For Remix Hot-Reload to work,
-   * all EXTERNAL packages should be added here
+   * Monorepo packages Remix should
+   * watch for changes
    */
-  watchPaths: ["../../packages/ui"],
+  watchPaths: PACKAGES_PATHS,
   /**
-   * For Remix Hot-Reload to work, all INTERNAL packages
-   * should be added here
+   * Remix Hot-Reload does not work if
+   * package exports ESM, workaround
+   * not needed for production
    */
-  serverDependenciesToBundle: ["ui"],
+  serverDependenciesToBundle:
+    process.env.NODE_ENV === "development" ? [...INTERNAL_ESM_PACKAGES] : [],
 };
