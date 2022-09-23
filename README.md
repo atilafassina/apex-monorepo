@@ -44,9 +44,14 @@ pnpm dev --filter workspace-name
 
 Besides local caching, Turbo can also cache build artifacts in the cloud and share across members of a team and environments. The smallest setup for Remote Caching is with [Vercel](https://turborepo.org/docs/core-concepts/remote-caching#vercel).
 
-## Use Remote Caching on Deploys
+## Bots 🤖
 
-When using Turbo CLI it will automatically
+- [Renovate](https://github.com/marketplace/renovate)
+
+  - Configured via `renovate.json5`: [documentation](https://docs.renovatebot.com/configuration-options/)
+
+- [Changesets Bot](https://github.com/apps/changeset-bot)
+  - Automatically nudges PR authors to add changesets
 
 ## Useful Links 📚
 

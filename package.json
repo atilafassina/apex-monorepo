@@ -1,5 +1,5 @@
 {
-  "name": "monorepo-apex",
+  "name": "apex-monorepo",
   "version": "0.0.0",
   "private": true,
   "workspaces": [
@@ -11,7 +11,10 @@
     "dev": "turbo dev --parallel",
     "lint": "turbo lint",
     "test": "turbo test",
-    "format": "prettier --write \"**/*.{ts,tsx,md}\""
+    "format": "prettier --write \"**/*.{ts,tsx,md}\"",
+    "release": "changeset publish",
+    "change": "changeset",
+    "bump": "changeset version"
   },
   "devDependencies": {
     "@changesets/cli": "^2.24.4",
