@@ -13,8 +13,6 @@
 - `eslint-config-custom`: `eslint` configurations (includes `eslint-config-next` and `eslint-config-prettier`)
 - `tsconfig`: `tsconfig.json`s used throughout the monorepo
 
-Each package/app is 100% [TypeScript](https://www.typescriptlang.org/).
-
 ### Utilities 🤹
 
 - [TypeScript](https://www.typescriptlang.org/) for static type checking
