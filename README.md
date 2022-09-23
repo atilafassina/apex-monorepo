@@ -7,15 +7,15 @@
 
 ## Workspaces 🚗
 
-| Name                 | Type             | Description                                                            |
-| -------------------- | ---------------- | ---------------------------------------------------------------------- |
-| Docs                 | App              | [Remix](https://remix.run) app                                         |
-| Web                  | App              | [Next.js](https://nextjs.org) app                                      |
-| UI                   | External Package | Component library ready to be published on NPM and consumed externally |
-| eslint-config-custom | Internal Package | `eslint` configurations used across the monorepo                       |
-| tsconfig             | Internal Package | `tsconfig.json`s used throughout the monorepo                          |
+| Name                 | Type         | Description                                        |
+| -------------------- | ------------ | -------------------------------------------------- |
+| Docs                 | App          | [Remix](https://remix.run) app                     |
+| Web                  | App          | [Next.js](https://nextjs.org) app                  |
+| UI                   | External Pkg | Component library published on NPM                 |
+| eslint-config-custom | Internal Pkg | shared [ESLint](https://eslint.org/) configuration |
+| tsconfig             | Internal Pkg | shared TypeScript configuration                    |
 
-## Utilities 🤹
+## Tooling 🤹
 
 - [TypeScript](https://www.typescriptlang.org/) for static type checking
 - [ESLint](https://eslint.org/) for code linting
@@ -26,11 +26,11 @@
 
 ## Bots 🤖
 
-| Name       | Link                                                                                                                               | Reason                                                                                               |
-| ---------- | ---------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------- |
-| Renovate   | [Marketplace Bot](https://github.com/marketplace/renovate) / [Config Docs](https://docs.renovatebot.com/configuration-options/)    | Pin and auto-update dependencies                                                                     |
-| Kodiak     | [Marketplace Bot](https://github.com/marketplace/kodiakhq#pricing-and-setup) / [Config Docs](https://kodiakhq.com/docs/quickstart) | Automerge selected Pull Requests (including minor and patch dependency updates)                      |
-| Changesets | [Marketplace Bot](https://github.com/apps/changeset-bot) / [GitHub Readme](https://github.com/changesets/changesets)               | Handle [SemVer](https://semver.org/), changelog generation, and publishing for **External Packages** |
+| Name       | Links                                                                                                                   | Reason                                                                                               |
+| ---------- | ----------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------- |
+| Renovate   | [Marketplace](https://github.com/marketplace/renovate) / [Docs](https://docs.renovatebot.com/configuration-options/)    | Pin and auto-update dependencies                                                                     |
+| Kodiak     | [Marketplace](https://github.com/marketplace/kodiakhq#pricing-and-setup) / [Docs](https://kodiakhq.com/docs/quickstart) | Automerge selected Pull Requests (including minor and patch dependency updates)                      |
+| Changesets | [Marketplace](https://github.com/apps/changeset-bot) / [Docs](https://github.com/changesets/changesets)                 | Handle [SemVer](https://semver.org/), changelog generation, and publishing for **External Packages** |
 
 ## Usage 🤹
 
