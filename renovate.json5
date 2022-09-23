@@ -7,7 +7,7 @@
       // if checks pass and version matches the update type
       // RenovateBot will merge it automatically.
       matchUpdateTypes: ["minor", "patch", "pin", "digest"],
-      automerge: true,
+      labels: ["automerge", "dependencies"],
     },
   ],
 }
