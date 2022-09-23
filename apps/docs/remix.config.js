@@ -3,11 +3,14 @@ module.exports = {
   serverBuildTarget: "vercel",
   server: process.env.NODE_ENV === "development" ? undefined : "./server.js",
   ignoredRouteFiles: ["**/.*"],
+  /**
+   * For Remix Hot-Reload to work,
+   * all EXTERNAL packages should be added here
+   */
   watchPaths: ["../../packages/ui/**/*.js"],
-
-  // serverDependenciesToBundle: ["ui"],
-  // appDirectory: "app",
-  // assetsBuildDirectory: "public/build",
-  // serverBuildPath: "api/index.js",
-  // publicPath: "/build/",
+  /**
+   * For Remix Hot-Reload to work, all INTERNAL packages
+   * should be added here
+   */
+  serverDependenciesToBundle: [],
 };
