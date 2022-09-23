@@ -1,4 +1,9 @@
-# Turborepo starter
+# Apex Monorepo
+
+- Multiple apps deployed
+- Internal packages as shared dependencies
+- Changesets Bot for release management
+- Renovate Bot to keep dependencies automatically up-to-date
 
 ### Apps and Packages 🚗
 
@@ -53,3 +58,7 @@ When using Turbo CLI it will automatically
 Learn more about the power of Turborepo:
 
 - [Turborepo Docs](https://turborepo.org/docs)
+
+---
+
+Built on top of [Turborepo Starter](https://github.com/vercel/turborepo/tree/main/examples/basic)
