@@ -20,7 +20,7 @@
     "@types/react": "18.0.21",
     "eslint": "7.32.0",
     "eslint-config-custom": "workspace:*",
-    "eslint-config-next": "^12.3.1",
+    "eslint-config-next": "12.3.1",
     "next-transpile-modules": "9.0.0",
     "tsconfig": "workspace:*",
     "typescript": "4.8.3"
