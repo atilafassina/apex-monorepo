@@ -1,27 +1,31 @@
 {
   "name": "docs",
-  "version": "0.0.0",
+  "description": "Remix based documentation app",
   "private": true,
+  "sideEffects": false,
   "scripts": {
-    "dev": "next dev --port 3001",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
+    "build": "remix build",
+    "dev": "remix dev"
   },
   "dependencies": {
-    "next": "12.3.0",
-    "react": "18.2.0",
-    "react-dom": "18.2.0",
+    "@remix-run/node": "^1.7.2",
+    "@remix-run/react": "^1.7.2",
+    "@remix-run/vercel": "^1.7.2",
+    "@vercel/node": "^2.4.4",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
     "ui": "workspace:*"
   },
   "devDependencies": {
-    "@babel/core": "7.19.1",
-    "eslint-config-custom": "workspace:*",
-    "eslint": "7.32.0",
-    "next-transpile-modules": "9.0.0",
-    "tsconfig": "workspace:*",
-    "@types/node": "17.0.45",
-    "@types/react": "18.0.21",
-    "typescript": "4.8.3"
+    "@remix-run/dev": "^1.7.2",
+    "@remix-run/eslint-config": "^1.7.2",
+    "@remix-run/serve": "^1.7.2",
+    "@types/react": "^18.0.15",
+    "@types/react-dom": "^18.0.6",
+    "eslint": "^8.23.1",
+    "typescript": "^4.7.4"
+  },
+  "engines": {
+    "node": ">=16"
   }
 }

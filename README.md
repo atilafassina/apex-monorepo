@@ -7,7 +7,7 @@
 
 ### Apps and Packages 🚗
 
-- `docs`: a [Next.js](https://nextjs.org) app
+- `docs`: a [Remix](https://remix.run) app
 - `web`: another [Next.js](https://nextjs.org) app
 - `ui`: a stub React component library shared by both `web` and `docs` applications
 - `eslint-config-custom`: `eslint` configurations (includes `eslint-config-next` and `eslint-config-prettier`)
