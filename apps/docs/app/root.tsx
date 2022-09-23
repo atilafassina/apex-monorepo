@@ -21,7 +21,19 @@ export default function App() {
         <Meta />
         <Links />
       </head>
-      <body>
+      <body
+        style={{
+          padding: 0,
+          margin: 0,
+          fontFamily:
+            'system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"',
+          color: "white",
+          minHeight: "100vh",
+          backgroundColor: "black",
+          display: "grid",
+          placeItems: "center",
+        }}
+      >
         <Outlet />
         <ScrollRestoration />
         <Scripts />
