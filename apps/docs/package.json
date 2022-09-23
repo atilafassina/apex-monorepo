@@ -5,7 +5,8 @@
   "sideEffects": false,
   "scripts": {
     "build": "remix build",
-    "dev": "remix dev"
+    "dev": "remix dev",
+    "lint": "eslint ."
   },
   "dependencies": {
     "@remix-run/node": "1.7.2",
@@ -23,6 +24,7 @@
     "@types/react": "18.0.21",
     "@types/react-dom": "18.0.6",
     "eslint": "8.23.1",
+    "eslint-config-custom": "workspace:*",
     "typescript": "4.8.3"
   },
   "engines": {
