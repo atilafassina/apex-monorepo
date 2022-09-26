@@ -1,3 +1,5 @@
+<img src="/apex.png" alt="Apex Monorepo logo" width="200" align="right"/>
+
 # Apex Monorepo
 
 - Automatic: Release, Changelog, Publishing, Dependency Updates
