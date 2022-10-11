@@ -12,7 +12,7 @@
     "@remix-run/node": "1.7.2",
     "@remix-run/react": "1.7.2",
     "@remix-run/vercel": "1.7.2",
-    "@vercel/node": "2.5.23",
+    "@vercel/node": "2.5.24",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "ui": "workspace:0.0.0"

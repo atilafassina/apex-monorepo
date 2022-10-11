@@ -24,7 +24,7 @@ importers:
       '@remix-run/vercel': 1.7.2
       '@types/react': 18.0.21
       '@types/react-dom': 18.0.6
-      '@vercel/node': 2.5.23
+      '@vercel/node': 2.5.24
       eslint: 8.25.0
       eslint-config-custom: workspace:*
       react: 18.2.0
@@ -34,8 +34,8 @@ importers:
     dependencies:
       '@remix-run/node': 1.7.2_biqbaboplfbrettd7655fr4n2y
       '@remix-run/react': 1.7.2_biqbaboplfbrettd7655fr4n2y
-      '@remix-run/vercel': 1.7.2_roxykbjhvh3ctfz7swpmzrazmq
-      '@vercel/node': 2.5.23
+      '@remix-run/vercel': 1.7.2_d5jbhxqfp3zldl6stjj44oiyfi
+      '@vercel/node': 2.5.24
       react: 18.2.0
       react-dom: 18.2.0_react@18.2.0
       ui: link:../../packages/ui
@@ -2278,14 +2278,14 @@ packages:
       set-cookie-parser: 2.5.1
       source-map: 0.7.4
 
-  /@remix-run/vercel/1.7.2_roxykbjhvh3ctfz7swpmzrazmq:
+  /@remix-run/vercel/1.7.2_d5jbhxqfp3zldl6stjj44oiyfi:
     resolution: {integrity: sha512-WoV15ig8QvWLksRO+i8Gpq3Og5PyJ7n/54Xg1MYrwfEIo7xRpmW6BzrYmu/HVN8HocQEs68ol4u2MVbOe/y4uA==}
     engines: {node: '>=14'}
     peerDependencies:
       '@vercel/node': ^1.8.3 || ^2.4.0
     dependencies:
       '@remix-run/node': 1.7.2_biqbaboplfbrettd7655fr4n2y
-      '@vercel/node': 2.5.23
+      '@vercel/node': 2.5.24
     transitivePeerDependencies:
       - react
       - react-dom
@@ -2663,15 +2663,15 @@ packages:
     resolution: {integrity: sha512-TNQK6cufwrhd8ASDk5YHHenH8Xhp9sY8xUjOTKnQQI37KLk+Sw2HlHhT5rzUFN23ahosUlkY8InwtYUmSNb9kw==}
     dev: false
 
-  /@vercel/node/2.5.23:
-    resolution: {integrity: sha512-XHiZKinhVBg9CLy6hZbQPuYzFioelBTVbJPq0gLoVi3buGXN6EYAfSZKbG/UYtA7hOUoOR4BylWvfuK6jeCu6A==}
+  /@vercel/node/2.5.24:
+    resolution: {integrity: sha512-DrvAQMyngMjnyHr3uhvShXi1f3iBTrURa/6vLQkWPJv1lfcVP/tcz7uwVX4tAb0a0i+reNhMMdUxH75m/Q6OdA==}
     dependencies:
       '@edge-runtime/vm': 1.1.0-beta.36
       '@types/node': 18.7.18
       '@vercel/build-utils': 5.5.4
       '@vercel/node-bridge': 3.0.0
       '@vercel/static-config': 2.0.3
-      edge-runtime: 1.1.0-beta.37
+      edge-runtime: 1.1.0-beta.38
       esbuild: 0.14.47
       exit-hook: 2.2.1
       node-fetch: 2.6.7
@@ -3744,8 +3744,8 @@ packages:
       stream-shift: 1.0.1
     dev: true
 
-  /edge-runtime/1.1.0-beta.37:
-    resolution: {integrity: sha512-IP0xYNmp0XXoXVnrAf/e67224ZkMUUBMyUUohVxWWI5XdyetIGRNWp3GifDy3LpbuE02yv42rgtoE+tm+whcLA==}
+  /edge-runtime/1.1.0-beta.38:
+    resolution: {integrity: sha512-MY6/XcnGGuvLmwAR6PQizjhW/ABjVnmpJQmhJRacmo7K7LhuevszrPFVf0GmwVrr9PUahrvgmZYydQLSTpS5AA==}
     hasBin: true
     dependencies:
       '@edge-runtime/format': 1.1.0-beta.33
