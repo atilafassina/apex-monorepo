@@ -24,7 +24,7 @@ importers:
       '@remix-run/vercel': 1.7.2
       '@types/react': 18.0.21
       '@types/react-dom': 18.0.6
-      '@vercel/node': 2.5.25
+      '@vercel/node': 2.5.26
       eslint: 8.25.0
       eslint-config-custom: workspace:*
       react: 18.2.0
@@ -34,8 +34,8 @@ importers:
     dependencies:
       '@remix-run/node': 1.7.2_biqbaboplfbrettd7655fr4n2y
       '@remix-run/react': 1.7.2_biqbaboplfbrettd7655fr4n2y
-      '@remix-run/vercel': 1.7.2_yzgdihgd4behvfslptnaelqi2e
-      '@vercel/node': 2.5.25
+      '@remix-run/vercel': 1.7.2_i4dm2q4jiaqsjpijmydxyrkc6m
+      '@vercel/node': 2.5.26
       react: 18.2.0
       react-dom: 18.2.0_react@18.2.0
       ui: link:../../packages/ui
@@ -1768,18 +1768,18 @@ packages:
       prettier: 2.7.1
     dev: true
 
-  /@edge-runtime/format/1.1.0-beta.33:
-    resolution: {integrity: sha512-t34oTdZOqYSiguCGnt9GYzh9mrnhCHNRPGDvxt5PB5T3LZpSVk+vfSXRqpvTxy51sxQpxvTZry8QLC+E+Fm67w==}
+  /@edge-runtime/format/1.1.0-beta.34:
+    resolution: {integrity: sha512-AdV7FlpBDDiwdPxmrCmq2ICMxzJr3Zoq/bUuIMC09jEmx8fpIAepAABVTEqr+X/6vhIiD2ermIog8qvAG4RZMg==}
     dev: false
 
-  /@edge-runtime/primitives/1.1.0-beta.36:
-    resolution: {integrity: sha512-Tji7SGWmn1+JGSnzFtWUoS7+kODIFprTyIAw0EBOVWEQKWfs7r0aTEm1XkJR0+d1jP9f0GB5LBKG/Z7KFyhx7g==}
+  /@edge-runtime/primitives/1.1.0-beta.37:
+    resolution: {integrity: sha512-S3aN8X6wXhM7CJI3FRF480CMNkw4mH6grMV/enQz8VWGrvD1U5njQNRh/Zymoe0RHzEI/aIDjSk3V49h+ULt9g==}
     dev: false
 
-  /@edge-runtime/vm/1.1.0-beta.36:
-    resolution: {integrity: sha512-uPZmL7X+lKBFJsTg8nC0qPDBx4JGgpRqlgJi2s77g2NOtqitQOI90BfIKHZSSoMQEwTqfvAkpu2ui8nazOwHxA==}
+  /@edge-runtime/vm/1.1.0-beta.37:
+    resolution: {integrity: sha512-1OrFifIxDFpwb1VyrFD8kwWVppc6D1uN7xh5jQzW7jHaVJ0Dw4C2nSAbLe6YKPYj67o09vW72WLzfUcryeD0Pg==}
     dependencies:
-      '@edge-runtime/primitives': 1.1.0-beta.36
+      '@edge-runtime/primitives': 1.1.0-beta.37
     dev: false
 
   /@esbuild-plugins/node-modules-polyfill/0.1.4_esbuild@0.14.51:
@@ -2278,14 +2278,14 @@ packages:
       set-cookie-parser: 2.5.1
       source-map: 0.7.4
 
-  /@remix-run/vercel/1.7.2_yzgdihgd4behvfslptnaelqi2e:
+  /@remix-run/vercel/1.7.2_i4dm2q4jiaqsjpijmydxyrkc6m:
     resolution: {integrity: sha512-WoV15ig8QvWLksRO+i8Gpq3Og5PyJ7n/54Xg1MYrwfEIo7xRpmW6BzrYmu/HVN8HocQEs68ol4u2MVbOe/y4uA==}
     engines: {node: '>=14'}
     peerDependencies:
       '@vercel/node': ^1.8.3 || ^2.4.0
     dependencies:
       '@remix-run/node': 1.7.2_biqbaboplfbrettd7655fr4n2y
-      '@vercel/node': 2.5.25
+      '@vercel/node': 2.5.26
     transitivePeerDependencies:
       - react
       - react-dom
@@ -2663,15 +2663,15 @@ packages:
     resolution: {integrity: sha512-TNQK6cufwrhd8ASDk5YHHenH8Xhp9sY8xUjOTKnQQI37KLk+Sw2HlHhT5rzUFN23ahosUlkY8InwtYUmSNb9kw==}
     dev: false
 
-  /@vercel/node/2.5.25:
-    resolution: {integrity: sha512-ZR1oarLvMnh2gkMnylappMm9c6VHiYk2VE9kHXkjCeM0IqTPMrH75AWadem3TwlWiwTEQvIKgTiYgUxyGXBM3Q==}
+  /@vercel/node/2.5.26:
+    resolution: {integrity: sha512-Kj3dXBwpttUB7XG5joXKIBDtkow71678NHhfpp1a7S/50U9n5R2ztsJKMPpQ1m7HgEkMezQt2YO5E+39c2jkug==}
     dependencies:
-      '@edge-runtime/vm': 1.1.0-beta.36
+      '@edge-runtime/vm': 1.1.0-beta.37
       '@types/node': 18.7.18
       '@vercel/build-utils': 5.5.5
       '@vercel/node-bridge': 3.0.0
       '@vercel/static-config': 2.0.3
-      edge-runtime: 1.1.0-beta.38
+      edge-runtime: 1.1.0-beta.40
       esbuild: 0.14.47
       exit-hook: 2.2.1
       node-fetch: 2.6.7
@@ -3744,12 +3744,12 @@ packages:
       stream-shift: 1.0.1
     dev: true
 
-  /edge-runtime/1.1.0-beta.38:
-    resolution: {integrity: sha512-MY6/XcnGGuvLmwAR6PQizjhW/ABjVnmpJQmhJRacmo7K7LhuevszrPFVf0GmwVrr9PUahrvgmZYydQLSTpS5AA==}
+  /edge-runtime/1.1.0-beta.40:
+    resolution: {integrity: sha512-KuoSRsQZUMyec6gtD9YOFA5ohmWtquTXKco+pLv1/1zcHmD0/rXU1QkTkE40BKwq+O02Esk9iPlx9LkHaQr3vg==}
     hasBin: true
     dependencies:
-      '@edge-runtime/format': 1.1.0-beta.33
-      '@edge-runtime/vm': 1.1.0-beta.36
+      '@edge-runtime/format': 1.1.0-beta.34
+      '@edge-runtime/vm': 1.1.0-beta.37
       exit-hook: 2.2.1
       http-status: 1.5.3
       mri: 1.2.0
