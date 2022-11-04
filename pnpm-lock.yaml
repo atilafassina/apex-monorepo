@@ -58,7 +58,7 @@ importers:
       eslint-config-custom: workspace:*
       eslint-config-next: 12.3.2
       next: 12.3.2
-      next-transpile-modules: 9.1.0
+      next-transpile-modules: 10.0.0
       react: 18.2.0
       react-dom: 18.2.0
       tsconfig: workspace:*
@@ -76,7 +76,7 @@ importers:
       eslint: 8.26.0
       eslint-config-custom: link:../../packages/eslint-config-custom
       eslint-config-next: 12.3.2_wyqvi574yv7oiwfeinomdzmc3m
-      next-transpile-modules: 9.1.0
+      next-transpile-modules: 10.0.0
       tsconfig: link:../../packages/tsconfig
       typescript: 4.8.4
 
@@ -7168,11 +7168,10 @@ packages:
     engines: {node: '>= 0.4.0'}
     dev: true
 
-  /next-transpile-modules/9.1.0:
-    resolution: {integrity: sha512-yzJji65xDqcIqjvx5vPJcs1M+MYQTzLM1pXH/qf8Q88ohx+bwVGDc1AeV+HKr1NwvMCNTpwVPSFI7cA5WdyeWA==}
+  /next-transpile-modules/10.0.0:
+    resolution: {integrity: sha512-FyeJ++Lm2Fq31gbThiRCrJlYpIY9QaI7A3TjuhQLzOix8ChQrvn5ny4MhfIthS5cy6+uK1AhDRvxVdW17y3Xdw==}
     dependencies:
       enhanced-resolve: 5.10.0
-      escalade: 3.1.1
     dev: true
 
   /next/12.3.2_qtpcxnaaarbm4ws7ughq6oxfve:
