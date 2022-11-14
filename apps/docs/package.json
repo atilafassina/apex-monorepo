@@ -22,7 +22,7 @@
     "@remix-run/eslint-config": "1.7.5",
     "@remix-run/serve": "1.7.5",
     "@types/react": "18.0.25",
-    "@types/react-dom": "18.0.8",
+    "@types/react-dom": "18.0.9",
     "eslint": "8.27.0",
     "eslint-config-custom": "workspace:*",
     "typescript": "4.8.4"
