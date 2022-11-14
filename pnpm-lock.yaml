@@ -23,7 +23,7 @@ importers:
       '@remix-run/serve': 1.7.5
       '@remix-run/vercel': 1.7.5
       '@types/react': 18.0.25
-      '@types/react-dom': 18.0.8
+      '@types/react-dom': 18.0.9
       '@vercel/node': 2.6.2
       eslint: 8.27.0
       eslint-config-custom: workspace:*
@@ -44,7 +44,7 @@ importers:
       '@remix-run/eslint-config': 1.7.5_u5s2ztivgin3yy4srvdhm3tgpm
       '@remix-run/serve': 1.7.5_biqbaboplfbrettd7655fr4n2y
       '@types/react': 18.0.25
-      '@types/react-dom': 18.0.8
+      '@types/react-dom': 18.0.9
       eslint: 8.27.0
       eslint-config-custom: link:../../packages/eslint-config-custom
       typescript: 4.8.4
@@ -99,7 +99,7 @@ importers:
   packages/ui:
     specifiers:
       '@types/react': 18.0.25
-      '@types/react-dom': 18.0.8
+      '@types/react-dom': 18.0.9
       eslint: 8.27.0
       eslint-config-custom: workspace:0.0.0
       eslint-plugin-react: 7.31.10
@@ -109,7 +109,7 @@ importers:
       typescript: 4.8.4
     devDependencies:
       '@types/react': 18.0.25
-      '@types/react-dom': 18.0.8
+      '@types/react-dom': 18.0.9
       eslint: 8.27.0
       eslint-config-custom: link:../eslint-config-custom
       eslint-plugin-react: 7.31.10_eslint@8.27.0
@@ -2517,8 +2517,8 @@ packages:
     resolution: {integrity: sha512-JCB8C6SnDoQf0cNycqd/35A7MjcnK+ZTqE7judS6o7utxUCg6imJg3QK2qzHKszlTjcj2cn+NwMB2i96ubpj7w==}
     dev: true
 
-  /@types/react-dom/18.0.8:
-    resolution: {integrity: sha512-C3GYO0HLaOkk9dDAz3Dl4sbe4AKUGTCfFIZsz3n/82dPNN8Du533HzKatDxeUYWu24wJgMP1xICqkWk1YOLOIw==}
+  /@types/react-dom/18.0.9:
+    resolution: {integrity: sha512-qnVvHxASt/H7i+XG1U1xMiY5t+IHcPGUK7TDMDzom08xa7e86eCeKOiLZezwCKVxJn6NEiiy2ekgX8aQssjIKg==}
     dependencies:
       '@types/react': 18.0.25
     dev: true
