@@ -7,7 +7,7 @@
     "eslint": "^8.0.0",
     "eslint-config-prettier": "^8.5.0",
     "eslint-config-turbo": "latest",
-    "eslint-plugin-react": "7.31.10"
+    "eslint-plugin-react": "7.31.11"
   },
   "devDependencies": {
     "typescript": "4.9.3"
