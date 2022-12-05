@@ -1,0 +1,9 @@
+{
+    "pnpm": {
+        "overrides": {
+            "ui": "./packages/ui",
+            "tsconfig": "./packages/tsconfig",
+            "eslint-config-custom": "./packages/eslint-config-custom"
+        }
+    }
+}
