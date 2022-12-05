@@ -7,6 +7,8 @@
 - Fast-Refresh and Hot-Reloading for Remix and Next.js
 - ESM and CJS support for published packages
 
+[![Open in Codeflow](https://developer.stackblitz.com/img/open_in_codeflow.svg)](https:///pr.new/atilafassina/apex-monorepo)
+
 ## Workspaces 🚗
 
 | Name                 | Type         | Description                                        |
