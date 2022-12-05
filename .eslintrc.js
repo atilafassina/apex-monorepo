@@ -4,10 +4,10 @@ module.exports = {
   extends: ["custom"],
   settings: {
     next: {
-      rootDir: ["apps/web/"],
+      rootDir: ["apps/nextjs/"],
     },
     remix: {
-      rootDir: ["apps/docs/"],
+      rootDir: ["apps/remix/"],
     },
   },
 };

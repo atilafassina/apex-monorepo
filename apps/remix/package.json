@@ -1,6 +1,5 @@
 {
-  "name": "docs",
-  "description": "Remix based documentation app",
+  "name": "remix",
   "private": true,
   "sideEffects": false,
   "scripts": {
@@ -15,7 +14,7 @@
     "@vercel/node": "2.7.1",
     "react": "18.2.0",
     "react-dom": "18.2.0",
-    "ui": "workspace:0.0.0"
+    "ui": "workspace:*"
   },
   "devDependencies": {
     "@remix-run/dev": "1.8.0",
@@ -25,6 +24,7 @@
     "@types/react-dom": "18.0.9",
     "eslint": "8.29.0",
     "eslint-config-custom": "workspace:*",
+    "tsconfig": "workspace:*",
     "typescript": "4.9.3"
   },
   "engines": {
