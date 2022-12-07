@@ -11,7 +11,7 @@ importers:
     devDependencies:
       '@changesets/cli': 2.25.2
       eslint-config-custom: link:packages/eslint-config-custom
-      prettier: 2.8.0
+      prettier: 2.8.1
       turbo: 1.6.3
 
   apps/nextjs:
@@ -53,7 +53,7 @@ importers:
       '@remix-run/vercel': 1.8.1
       '@types/react': 18.0.26
       '@types/react-dom': 18.0.9
-      '@vercel/node': 2.7.1
+      '@vercel/node': 2.8.0
       eslint: 8.29.0
       eslint-config-custom: workspace:*
       react: 18.2.0
@@ -64,8 +64,8 @@ importers:
     dependencies:
       '@remix-run/node': 1.8.1_biqbaboplfbrettd7655fr4n2y
       '@remix-run/react': 1.8.1_biqbaboplfbrettd7655fr4n2y
-      '@remix-run/vercel': 1.8.1_ytjm4ysfyznu4rzidzdg5t7fa4
-      '@vercel/node': 2.7.1
+      '@remix-run/vercel': 1.8.1_ldwa5totof75qvkyrgfna3owpu
+      '@vercel/node': 2.8.0
       react: 18.2.0
       react-dom: 18.2.0_react@18.2.0
       ui: link:../../packages/ui
@@ -1437,7 +1437,7 @@ packages:
       fs-extra: 7.0.1
       lodash.startcase: 4.4.0
       outdent: 0.5.0
-      prettier: 2.8.0
+      prettier: 2.8.1
       resolve-from: 5.0.0
       semver: 5.7.1
     dev: true
@@ -1604,7 +1604,7 @@ packages:
       '@changesets/types': 5.2.0
       fs-extra: 7.0.1
       human-id: 1.0.2
-      prettier: 2.8.0
+      prettier: 2.8.1
     dev: true
 
   /@edge-runtime/format/1.1.0:
@@ -2155,14 +2155,14 @@ packages:
       set-cookie-parser: 2.5.1
       source-map: 0.7.4
 
-  /@remix-run/vercel/1.8.1_ytjm4ysfyznu4rzidzdg5t7fa4:
+  /@remix-run/vercel/1.8.1_ldwa5totof75qvkyrgfna3owpu:
     resolution: {integrity: sha512-hYWlOLrD432qMO9fgTcMA+zYsK37cYwsB/HEaP0T5MK19sX/lbbmwn33UWxU2BOTfZuRB9tMqs9u6nE8YOogLQ==}
     engines: {node: '>=14'}
     peerDependencies:
       '@vercel/node': ^1.8.3 || ^2.4.0
     dependencies:
       '@remix-run/node': 1.8.1_biqbaboplfbrettd7655fr4n2y
-      '@vercel/node': 2.7.1
+      '@vercel/node': 2.8.0
     transitivePeerDependencies:
       - react
       - react-dom
@@ -2589,8 +2589,8 @@ packages:
     resolution: {integrity: sha512-dgcLXug0IqUeRsywf0G8IrhUFcgw+GYj+EZB4JneglKSofFBh3Xy/t7KfBUxLlKnoq6kyGYJvTmAVB1YBt11qw==}
     dev: false
 
-  /@vercel/node/2.7.1:
-    resolution: {integrity: sha512-TaNZKXvZvKzwz+ALf4/od64wniOpSwaYcGzQXs9onkzonOdO4C1biGBaIHpnqdlAxbaFRMvqQQbqjfJHJavPhQ==}
+  /@vercel/node/2.8.0:
+    resolution: {integrity: sha512-Vji7/j1boSGNsPS3Zw5Av21dAQMUcuci9l9OI2JhJ7kG1NGT3+8k83Dy46ZI1Q9+5m+ibUxVVzfsS7Fr6oYVYA==}
     dependencies:
       '@edge-runtime/vm': 2.0.0
       '@types/node': 14.18.33
@@ -7697,8 +7697,8 @@ packages:
     hasBin: true
     dev: true
 
-  /prettier/2.8.0:
-    resolution: {integrity: sha512-9Lmg8hTFZKG0Asr/kW9Bp8tJjRVluO8EJQVfY2T7FMw9T5jy4I/Uvx0Rca/XWf50QQ1/SS48+6IJWnrb+2yemA==}
+  /prettier/2.8.1:
+    resolution: {integrity: sha512-lqGoSJBQNJidqCHE80vqZJHWHRFoNYsSpP9AjFhlhi9ODCJA541svILes/+/1GM3VaL/abZi7cpFzOpdR9UPKg==}
     engines: {node: '>=10.13.0'}
     hasBin: true
     dev: true
