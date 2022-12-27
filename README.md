@@ -3,9 +3,13 @@
 # Apex Monorepo
 
 - Automatic: Release, Changelog, Publishing, Dependency Updates
+- Zero Installation PRs with [Stackblitz CodeFlow](https://stackblitz.com/codeflow)
 - Internal and External Packages
-- Fast-Refresh and Hot-Reloading for Remix and Next.js
 - ESM and CJS support for published packages
+- Setup ready for:
+  - Next.js
+  - Remix
+  - Astro (coming soon 🚧)
 
 [![Open in Codeflow](https://developer.stackblitz.com/img/open_in_codeflow.svg)](https:///pr.new/atilafassina/apex-monorepo)
 
@@ -13,8 +17,8 @@
 
 | Name                 | Type         | Description                                        |
 | -------------------- | ------------ | -------------------------------------------------- |
-| Docs                 | App          | [Remix](https://remix.run) app                     |
-| Web                  | App          | [Next.js](https://nextjs.org) app                  |
+| Remix                | App          | with module transpilation.                         |
+| Nextjs               | App          | with module transpilation in dev.                  |
 | UI                   | External Pkg | Component library published on NPM                 |
 | eslint-config-custom | Internal Pkg | shared [ESLint](https://eslint.org/) configuration |
 | tsconfig             | Internal Pkg | shared TypeScript configuration                    |
@@ -64,6 +68,24 @@ Whenever neccessary to run only a certain set of workspaces, use the `--filter` 
 
 ```sh
 pnpm dev --filter workspace-name
+```
+
+## Expanding 📦
+
+When creating a new internal package, it's important to set overrides for `pnpm` on the [stackblitz/codeflow.json](/.stackblitz/codeflow.json).
+
+```json
+{
+  "pnpm": {
+    "overrides": {
+      "ui": "./packages/ui",
+      "tsconfig": "./packages/tsconfig",
+      "eslint-config-custom": "./packages/eslint-config-custom",
+
+      "<new-pacakge-name>": "./new/package/path/from/root"
+    }
+  }
+}
 ```
 
 ## Remote Caching ☁️
