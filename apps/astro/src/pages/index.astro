@@ -1,0 +1,24 @@
+---
+import '../styles/globals.css'
+import Navigation from '../components/navigation.astro'
+// Welcome to Astro! Everything between these triple-dash code fences
+// is your "component front matter". It never runs in the browser.
+const test = 'hello'
+console.log('This runs in your terminal, not the browser!');
+---
+
+<!-- Below is your "component template." It's just HTML, but with
+     some magic sprinkled in to help you build great templates. -->
+<html lang="en">
+   <head>
+    <meta charset="utf-8" />
+    <link rel="icon" type ="image/svg+xml" href="/favicon.ico" />
+    <meta name="viewport" content="width=device-width" />
+    <meta name="generator" content = {Astro.generator} >
+    <title>Astro</title>
+  </head>
+  <body>
+    <h1>Hello, {test}</h1>
+    <Navigation />
+  </body>
+</html>

@@ -1,0 +1,30 @@
+{
+  "name": "astro",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@astrojs/react": "^1.2.2",
+    "@astrojs/solid-js": "^1.2.3",
+    "@types/react": "^18.0.21",
+    "@types/react-dom": "^18.0.6",
+    "astro": "^1.7.2",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "solid-js": "^1.4.3",
+    "ui": "workspace:*"
+  },
+  "devDependencies": {
+    "typescript": "^4.9.4"
+  }
+}

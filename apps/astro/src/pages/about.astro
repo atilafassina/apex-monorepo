@@ -1,0 +1,8 @@
+---
+import BaseLayout from '../layouts/base.astro'
+import Button from '../components/islands/button.react'
+const pageTitle = "Hello About"
+---
+<BaseLayout pageTitle={pageTitle}>
+  <Button client:load />
+</BaseLayout>
