@@ -12,7 +12,7 @@ importers:
       '@changesets/cli': 2.26.0
       eslint-config-custom: link:packages/eslint-config-custom
       prettier: 2.8.3
-      turbo: 1.7.0
+      turbo: 1.7.2
 
   apps/nextjs:
     specifiers:
@@ -53,7 +53,7 @@ importers:
       '@remix-run/vercel': 1.12.0
       '@types/react': 18.0.27
       '@types/react-dom': 18.0.10
-      '@vercel/node': 2.8.17
+      '@vercel/node': 2.9.0
       eslint: 8.33.0
       eslint-config-custom: workspace:*
       react: 18.2.0
@@ -64,8 +64,8 @@ importers:
     dependencies:
       '@remix-run/node': 1.12.0
       '@remix-run/react': 1.12.0_biqbaboplfbrettd7655fr4n2y
-      '@remix-run/vercel': 1.12.0_@vercel+node@2.8.17
-      '@vercel/node': 2.8.17
+      '@remix-run/vercel': 1.12.0_@vercel+node@2.9.0
+      '@vercel/node': 2.9.0
       react: 18.2.0
       react-dom: 18.2.0_react@18.2.0
       ui: link:../../packages/ui
@@ -2302,14 +2302,14 @@ packages:
       set-cookie-parser: 2.5.1
       source-map: 0.7.4
 
-  /@remix-run/vercel/1.12.0_@vercel+node@2.8.17:
+  /@remix-run/vercel/1.12.0_@vercel+node@2.9.0:
     resolution: {integrity: sha512-ivDhisGtBUb+227kqV+Vauz1hEdvNFixG/QnAE7V2hIUi3zCUpmI/GEVJ8z845VLx61dlyHxC1D5psLt3/c7Kg==}
     engines: {node: '>=14'}
     peerDependencies:
       '@vercel/node': ^1.8.3 || ^2.4.0
     dependencies:
       '@remix-run/node': 1.12.0
-      '@vercel/node': 2.8.17
+      '@vercel/node': 2.9.0
     dev: false
 
   /@remix-run/web-blob/3.0.4:
@@ -2783,22 +2783,22 @@ packages:
     resolution: {integrity: sha512-17kVyLq3ePTKOkveHxXuIJZtGYs+cSoev7BlP+Lf4916qfDhk/HBjvlYDe8egrea7LNPHKwSZJK/bzZC+Q6AwQ==}
     dev: true
 
-  /@vercel/build-utils/6.0.1:
-    resolution: {integrity: sha512-dODPwcsYDfptshwSmnW7VN7V8G8NHBuTyshOzazde3MAvvOJoG5SdqZ+Mdayhgv16I3UV93j/JNsbamQcqE3VQ==}
+  /@vercel/build-utils/6.1.0:
+    resolution: {integrity: sha512-mDDbQ9plFNzkE+Kc/Xv4FweuQmnlKkuJw0QDdaHVeD4LixZ/yl2LXjRhQaVsnv/M9wR8piSjZUaj1Rvhakv2Tg==}
     dev: false
 
   /@vercel/node-bridge/3.1.10:
     resolution: {integrity: sha512-0DQzF5pdyP+xd5f1Ss2fAO+9xIvzUhngRAPazwg4XHZE9iLkv2L+A1u3L8NYi4hoUlAAZQ5GF3txlm/oBn4tNw==}
     dev: false
 
-  /@vercel/node/2.8.17:
-    resolution: {integrity: sha512-szlW6MQ0hok3oeGexB2JwGkOFXluvkWMUA5L4uxkx8xYhd0rBoSi3rWgO84V3SyS8g8SSIZmxKoOT5plm8mO9w==}
+  /@vercel/node/2.9.0:
+    resolution: {integrity: sha512-I87lBDUdZnzUzZgFxIk4FUj207EBcm7mVEHW3yN0V9Z3jTfg8PJDe8T2OeJFsKpYsI58nzSAYYA8viKJjrVcdg==}
     dependencies:
       '@edge-runtime/vm': 2.0.0
       '@types/node': 14.18.33
-      '@vercel/build-utils': 6.0.1
+      '@vercel/build-utils': 6.1.0
       '@vercel/node-bridge': 3.1.10
-      '@vercel/static-config': 2.0.11
+      '@vercel/static-config': 2.0.12
       edge-runtime: 2.0.0
       esbuild: 0.14.47
       exit-hook: 2.2.1
@@ -2811,8 +2811,8 @@ packages:
       - encoding
     dev: false
 
-  /@vercel/static-config/2.0.11:
-    resolution: {integrity: sha512-dw6CAJ7U2AcQpjZV9YfOyz2wTseSFdkT3qivBg2GjHtVyd5wdY7vkQ9seLKEckYhFx3CjQ29IhzhDND9F5oINw==}
+  /@vercel/static-config/2.0.12:
+    resolution: {integrity: sha512-mkTS3t6RV6Fu7G21LpegEuuHl9rwfyNkoBvsNV5BBP0h7/3OzHwHip+t20oKWk3IrWu5ic0nbLNhyARdkeA1hQ==}
     dependencies:
       ajv: 8.6.3
       json-schema-to-ts: 1.6.4
@@ -8528,65 +8528,65 @@ packages:
       yargs: 17.5.1
     dev: true
 
-  /turbo-darwin-64/1.7.0:
-    resolution: {integrity: sha512-hSGAueSf5Ko8J67mpqjpt9FsP6ePn1nMcl7IVPoJq5dHsgX3anCP/BPlexJ502bNK+87DDyhQhJ/LPSJXKrSYQ==}
+  /turbo-darwin-64/1.7.2:
+    resolution: {integrity: sha512-Sml3WR8MSu80W+gS8SnoKNImcDOlIX7zlvezzds65mW11yGniIFfZ18aKWGOm92Nj2SvXCQ2+UmyGghbFaHNmQ==}
     cpu: [x64]
     os: [darwin]
     requiresBuild: true
     dev: true
     optional: true
 
-  /turbo-darwin-arm64/1.7.0:
-    resolution: {integrity: sha512-BLLOW5W6VZxk5+0ZOj5AO1qjM0P5isIgjbEuyAl8lHZ4s9antUbY4CtFrspT32XxPTYoDl4UjviPMcSsbcl3WQ==}
+  /turbo-darwin-arm64/1.7.2:
+    resolution: {integrity: sha512-JnlgGLScboUJGJxvmSsF+5xkImEDTMPg2FHzX4n8AMB9az9ZlPQAMtc+xu4p6Xp9eaykKiV2RG81YS3H0fxDLA==}
     cpu: [arm64]
     os: [darwin]
     requiresBuild: true
     dev: true
     optional: true
 
-  /turbo-linux-64/1.7.0:
-    resolution: {integrity: sha512-aw2qxmfZa+kT87SB3GNUoFimqEPzTlzlRqhPgHuAAT6Uf0JHnmebPt4K+ZPtDNl5yfVmtB05bhHPqw+5QV97Yg==}
+  /turbo-linux-64/1.7.2:
+    resolution: {integrity: sha512-vbLJw6ovG+lpiPqxniscBjljKJ2jbsHuKp8uK4j/wqgp68wAVKeAZW77GGDAUgDb88XH6Kvhh2hcizL+iWduww==}
     cpu: [x64]
     os: [linux]
     requiresBuild: true
     dev: true
     optional: true
 
-  /turbo-linux-arm64/1.7.0:
-    resolution: {integrity: sha512-AJEx2jX+zO5fQtJpO3r6uhTabj4oSA5ZhB7zTs/rwu/XqoydsvStA4X8NDW4poTbOjF7DcSHizqwi04tSMzpJw==}
+  /turbo-linux-arm64/1.7.2:
+    resolution: {integrity: sha512-zLnuS8WdHonKL74KqOopOH/leBOWumlVGF8/8hldbDPq0mwY+6myRR5/5LdveB51rkG4UJh/sQ94xV67tjBoyw==}
     cpu: [arm64]
     os: [linux]
     requiresBuild: true
     dev: true
     optional: true
 
-  /turbo-windows-64/1.7.0:
-    resolution: {integrity: sha512-ewj7PPv2uxqv0r31hgnBa3E5qwUu7eyVRP5M1gB/TJXfSHduU79gbxpKCyxIZv2fL/N2/3U7EPOQPSZxBAoljA==}
+  /turbo-windows-64/1.7.2:
+    resolution: {integrity: sha512-oE5PMoXjmR09okvVzteFb6FjA6yo+nMsacsgKH2yLNq4sOrVo9tG98JkRurOv5+L6ZQ3yGXPxWHiqeH7hLkAVQ==}
     cpu: [x64]
     os: [win32]
     requiresBuild: true
     dev: true
     optional: true
 
-  /turbo-windows-arm64/1.7.0:
-    resolution: {integrity: sha512-LzjOUzveWkvTD0jP8DBMYiAnYemmydsvqxdSmsUapHHJkl6wKZIOQNSO7pxsy+9XM/1/+0f9Y9F9ZNl5lePTEA==}
+  /turbo-windows-arm64/1.7.2:
+    resolution: {integrity: sha512-mdTUJk23acRv5qxA/yEstYhM1VFenVE3FDrssxGRFq7S80smtCGK1xUd4BEDDzDlVXOqBohmM5jRh9516rcjPQ==}
     cpu: [arm64]
     os: [win32]
     requiresBuild: true
     dev: true
     optional: true
 
-  /turbo/1.7.0:
-    resolution: {integrity: sha512-cwympNwQNnQZ/TffBd8yT0i0O10Cf/hlxccCYgUcwhcGEb9rDjE5thDbHoHw1hlJQUF/5ua7ERJe7Zr0lNE/ww==}
+  /turbo/1.7.2:
+    resolution: {integrity: sha512-YR/x3GZEx0C1RV6Yvuw/HB1Ixx3upM6ZTTa4WqKz9WtLWN8u2g+u2h5KpG5YtjCS3wl/8zVXgHf2WiMK6KIghg==}
     hasBin: true
     requiresBuild: true
     optionalDependencies:
-      turbo-darwin-64: 1.7.0
-      turbo-darwin-arm64: 1.7.0
-      turbo-linux-64: 1.7.0
-      turbo-linux-arm64: 1.7.0
-      turbo-windows-64: 1.7.0
-      turbo-windows-arm64: 1.7.0
+      turbo-darwin-64: 1.7.2
+      turbo-darwin-arm64: 1.7.2
+      turbo-linux-64: 1.7.2
+      turbo-linux-arm64: 1.7.2
+      turbo-windows-64: 1.7.2
+      turbo-windows-arm64: 1.7.2
     dev: true
 
   /type-check/0.3.2:
