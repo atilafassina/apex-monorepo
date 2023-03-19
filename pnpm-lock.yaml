@@ -107,7 +107,7 @@ importers:
       eslint-plugin-react: 7.32.2
       react: 18.2.0
       tsconfig: workspace:0.0.0
-      tsup: 6.6.3
+      tsup: 6.7.0
       typescript: 5.0.2
     devDependencies:
       '@types/react': 18.0.28
@@ -117,7 +117,7 @@ importers:
       eslint-plugin-react: 7.32.2_eslint@8.36.0
       react: 18.2.0
       tsconfig: link:../tsconfig
-      tsup: 6.6.3_typescript@5.0.2
+      tsup: 6.7.0_typescript@5.0.2
       typescript: 5.0.2
 
 packages:
@@ -8511,14 +8511,14 @@ packages:
   /tslib/2.4.0:
     resolution: {integrity: sha512-d6xOpEDfsi2CZVlPQzGeux8XMwLT9hssAsaPYExaQMuYskwb+x1x7J371tWlbBdWHroy99KnVB6qIkUbs5X3UQ==}
 
-  /tsup/6.6.3_typescript@5.0.2:
-    resolution: {integrity: sha512-OLx/jFllYlVeZQ7sCHBuRVEQBBa1tFbouoc/gbYakyipjVQdWy/iQOvmExUA/ewap9iQ7tbJf9pW0PgcEFfJcQ==}
+  /tsup/6.7.0_typescript@5.0.2:
+    resolution: {integrity: sha512-L3o8hGkaHnu5TdJns+mCqFsDBo83bJ44rlK7e6VdanIvpea4ArPcU3swWGsLVbXak1PqQx/V+SSmFPujBK+zEQ==}
     engines: {node: '>=14.18'}
     hasBin: true
     peerDependencies:
       '@swc/core': ^1
       postcss: ^8.4.12
-      typescript: ^4.1.0
+      typescript: '>=4.1.0'
     peerDependenciesMeta:
       '@swc/core':
         optional: true
