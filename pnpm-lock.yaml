@@ -17,7 +17,7 @@ importers:
   apps/nextjs:
     specifiers:
       '@babel/core': 7.21.3
-      '@types/node': 18.15.8
+      '@types/node': 18.15.9
       '@types/react': 18.0.29
       eslint: 8.36.0
       eslint-config-custom: workspace:*
@@ -35,7 +35,7 @@ importers:
       ui: link:../../packages/ui
     devDependencies:
       '@babel/core': 7.21.3
-      '@types/node': 18.15.8
+      '@types/node': 18.15.9
       '@types/react': 18.0.29
       eslint: 8.36.0
       eslint-config-custom: link:../../packages/eslint-config-custom
@@ -2638,7 +2638,7 @@ packages:
     dependencies:
       '@types/http-cache-semantics': 4.0.1
       '@types/keyv': 3.1.4
-      '@types/node': 18.15.8
+      '@types/node': 18.15.9
       '@types/responselike': 1.0.0
     dev: true
 
@@ -2671,7 +2671,7 @@ packages:
     resolution: {integrity: sha512-ZUxbzKl0IfJILTS6t7ip5fQQM/J3TJYubDm3nMbgubNNYS62eXeUpoLUC8/7fJNiFYHTrGPQn7hspDUzIHX3UA==}
     dependencies:
       '@types/minimatch': 5.1.2
-      '@types/node': 18.15.8
+      '@types/node': 18.15.9
     dev: true
 
   /@types/hast/2.3.4:
@@ -2700,7 +2700,7 @@ packages:
   /@types/keyv/3.1.4:
     resolution: {integrity: sha512-BQ5aZNSCpj7D6K2ksrRCTmKRLEpnPvWDiLPfoGyhZ++8YtiK9d/3DBKPJgry359X/P1PfruyYwvnvwFjuEiEIg==}
     dependencies:
-      '@types/node': 18.15.8
+      '@types/node': 18.15.9
     dev: true
 
   /@types/mdast/3.0.10:
@@ -2733,8 +2733,8 @@ packages:
     resolution: {integrity: sha512-qelS/Ra6sacc4loe/3MSjXNL1dNQ/GjxNHVzuChwMfmk7HuycRLVQN2qNY3XahK+fZc5E2szqQSKUyAF0E+2bg==}
     dev: false
 
-  /@types/node/18.15.8:
-    resolution: {integrity: sha512-kzGNJZ57XEH7RdckxZ7wfRjB9hgZABF+NLgR1B2zogUvV0gmK0/60VYA4yb4oKZckPiiJlmmfpdqTfCN0VRX+Q==}
+  /@types/node/18.15.9:
+    resolution: {integrity: sha512-dUxhiNzBLr6IqlZXz6e/rN2YQXlFgOei/Dxy+e3cyXTJ4txSUbGT2/fmnD6zd/75jDMeW5bDee+YXxlFKHoV0A==}
     dev: true
 
   /@types/normalize-package-data/2.4.1:
@@ -2760,7 +2760,7 @@ packages:
   /@types/responselike/1.0.0:
     resolution: {integrity: sha512-85Y2BjiufFzaMIlvJDvTTB8Fxl2xfLo4HgmHzVBz08w4wDePCTjYw66PdrolO0kzli3yam/YCgRufyo1DdQVTA==}
     dependencies:
-      '@types/node': 18.15.8
+      '@types/node': 18.15.9
     dev: true
 
   /@types/scheduler/0.16.2:
