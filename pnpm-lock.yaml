@@ -18,7 +18,7 @@ importers:
     specifiers:
       '@babel/core': 7.21.3
       '@types/node': 18.15.11
-      '@types/react': 18.0.30
+      '@types/react': 18.0.31
       eslint: 8.36.0
       eslint-config-custom: workspace:*
       eslint-config-next: 13.2.4
@@ -36,7 +36,7 @@ importers:
     devDependencies:
       '@babel/core': 7.21.3
       '@types/node': 18.15.11
-      '@types/react': 18.0.30
+      '@types/react': 18.0.31
       eslint: 8.36.0
       eslint-config-custom: link:../../packages/eslint-config-custom
       eslint-config-next: 13.2.4_j4766f7ecgqbon3u7zlxn5zszu
@@ -51,7 +51,7 @@ importers:
       '@remix-run/react': 1.14.3
       '@remix-run/serve': 1.14.3
       '@remix-run/vercel': 1.14.3
-      '@types/react': 18.0.30
+      '@types/react': 18.0.31
       '@types/react-dom': 18.0.11
       '@vercel/node': 2.10.1
       eslint: 8.36.0
@@ -73,7 +73,7 @@ importers:
       '@remix-run/dev': 1.14.3_@remix-run+serve@1.14.3
       '@remix-run/eslint-config': 1.14.3_m2buwt4aurdom7izueoze32r4i
       '@remix-run/serve': 1.14.3
-      '@types/react': 18.0.30
+      '@types/react': 18.0.31
       '@types/react-dom': 18.0.11
       eslint: 8.36.0
       eslint-config-custom: link:../../packages/eslint-config-custom
@@ -100,7 +100,7 @@ importers:
 
   packages/ui:
     specifiers:
-      '@types/react': 18.0.30
+      '@types/react': 18.0.31
       '@types/react-dom': 18.0.11
       eslint: 8.36.0
       eslint-config-custom: workspace:0.0.0
@@ -110,7 +110,7 @@ importers:
       tsup: 6.7.0
       typescript: 5.0.2
     devDependencies:
-      '@types/react': 18.0.30
+      '@types/react': 18.0.31
       '@types/react-dom': 18.0.11
       eslint: 8.36.0
       eslint-config-custom: link:../eslint-config-custom
@@ -2500,7 +2500,7 @@ packages:
     dependencies:
       '@remix-run/router': 1.3.3
       '@types/cookie': 0.4.1
-      '@types/react': 18.0.30
+      '@types/react': 18.0.31
       '@web3-storage/multipart-parser': 1.0.0
       cookie: 0.4.2
       set-cookie-parser: 2.5.1
@@ -2747,11 +2747,11 @@ packages:
   /@types/react-dom/18.0.11:
     resolution: {integrity: sha512-O38bPbI2CWtgw/OoQoY+BRelw7uysmXbWvw3nLWO21H1HSh+GOlqPuXshJfjmpNlKiiSDG9cc1JZAaMmVdcTlw==}
     dependencies:
-      '@types/react': 18.0.30
+      '@types/react': 18.0.31
     dev: true
 
-  /@types/react/18.0.30:
-    resolution: {integrity: sha512-AnME2cHDH11Pxt/yYX6r0w448BfTwQOLEhQEjCdwB7QskEI7EKtxhGUsExTQe/MsY3D9D5rMtu62WRocw9A8FA==}
+  /@types/react/18.0.31:
+    resolution: {integrity: sha512-EEG67of7DsvRDU6BLLI0p+k1GojDLz9+lZsnCpCRTa/lOokvyPBvp8S5x+A24hME3yyQuIipcP70KJ6H7Qupww==}
     dependencies:
       '@types/prop-types': 15.7.5
       '@types/scheduler': 0.16.2
