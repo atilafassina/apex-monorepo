@@ -15,7 +15,7 @@ importers:
         version: 2.8.7
       turbo:
         specifier: latest
-        version: 1.9.0
+        version: 1.9.2
 
   apps/nextjs:
     dependencies:
@@ -39,8 +39,8 @@ importers:
         specifier: 18.15.11
         version: 18.15.11
       '@types/react':
-        specifier: 18.0.35
-        version: 18.0.35
+        specifier: 18.0.37
+        version: 18.0.37
       eslint:
         specifier: 8.38.0
         version: 8.38.0
@@ -91,8 +91,8 @@ importers:
         specifier: 1.15.0
         version: 1.15.0
       '@types/react':
-        specifier: 18.0.35
-        version: 18.0.35
+        specifier: 18.0.37
+        version: 18.0.37
       '@types/react-dom':
         specifier: 18.0.11
         version: 18.0.11
@@ -119,7 +119,7 @@ importers:
         version: 8.5.0(eslint@8.23.1)
       eslint-config-turbo:
         specifier: latest
-        version: 1.9.0(eslint@8.23.1)
+        version: 1.9.2(eslint@8.23.1)
       eslint-plugin-react:
         specifier: 7.32.2
         version: 7.32.2(eslint@8.23.1)
@@ -133,8 +133,8 @@ importers:
   packages/ui:
     devDependencies:
       '@types/react':
-        specifier: 18.0.35
-        version: 18.0.35
+        specifier: 18.0.37
+        version: 18.0.37
       '@types/react-dom':
         specifier: 18.0.11
         version: 18.0.11
@@ -2511,7 +2511,7 @@ packages:
     dependencies:
       '@remix-run/router': 1.5.0
       '@types/cookie': 0.4.1
-      '@types/react': 18.0.35
+      '@types/react': 18.0.37
       '@web3-storage/multipart-parser': 1.0.0
       cookie: 0.4.2
       set-cookie-parser: 2.5.1
@@ -2757,11 +2757,11 @@ packages:
   /@types/react-dom@18.0.11:
     resolution: {integrity: sha512-O38bPbI2CWtgw/OoQoY+BRelw7uysmXbWvw3nLWO21H1HSh+GOlqPuXshJfjmpNlKiiSDG9cc1JZAaMmVdcTlw==}
     dependencies:
-      '@types/react': 18.0.35
+      '@types/react': 18.0.37
     dev: true
 
-  /@types/react@18.0.35:
-    resolution: {integrity: sha512-6Laome31HpetaIUGFWl1VQ3mdSImwxtFZ39rh059a1MNnKGqBpC88J6NJ8n/Is3Qx7CefDGLgf/KhN/sYCf7ag==}
+  /@types/react@18.0.37:
+    resolution: {integrity: sha512-4yaZZtkRN3ZIQD3KSEwkfcik8s0SWV+82dlJot1AbGYHCzJkWP3ENBY6wYeDRmKZ6HkrgoGAmR2HqdwYGp6OEw==}
     dependencies:
       '@types/prop-types': 15.7.5
       '@types/scheduler': 0.16.2
@@ -4452,13 +4452,13 @@ packages:
       eslint: 8.23.1
     dev: false
 
-  /eslint-config-turbo@1.9.0(eslint@8.23.1):
-    resolution: {integrity: sha512-DEwFRVitVZPPEEEiEIu/oIqTHDQnKHenYZXB2YhFCTUnBtRPoYuLGPqeB0x8jQzPTVq5D2XFjiXdnFWLx9/71Q==}
+  /eslint-config-turbo@1.9.2(eslint@8.23.1):
+    resolution: {integrity: sha512-2vQ1IHJ7VuN8Rgj4ZLowFLHVyUnDnxnDBwbLwCG14Scc74lp0ojL5S/S2vhHo+b1csP7LR5zeL0d9J6cwj0R7g==}
     peerDependencies:
       eslint: '>6.6.0'
     dependencies:
       eslint: 8.23.1
-      eslint-plugin-turbo: 1.9.0(eslint@8.23.1)
+      eslint-plugin-turbo: 1.9.2(eslint@8.23.1)
     dev: false
 
   /eslint-import-resolver-node@0.3.6:
@@ -4702,8 +4702,8 @@ packages:
       - typescript
     dev: true
 
-  /eslint-plugin-turbo@1.9.0(eslint@8.23.1):
-    resolution: {integrity: sha512-ttv1o+mD1uWxY9l+zeVS3X1iXdmfMzHwWE0VZvxxqxYW0thgLHA5eO9wyC/tdb1V9JdkiV7NmMJKyz+ew+sXuA==}
+  /eslint-plugin-turbo@1.9.2(eslint@8.23.1):
+    resolution: {integrity: sha512-xxXyq3sAkAF3OB0yr+ybyutoD1kwL5430Esp2wQszE7QX9c8IUNbF46PcoE0hf/G/KBKH3o8UVmTRDV1XZcWXQ==}
     peerDependencies:
       eslint: '>6.6.0'
     dependencies:
@@ -8641,65 +8641,65 @@ packages:
       yargs: 17.5.1
     dev: true
 
-  /turbo-darwin-64@1.9.0:
-    resolution: {integrity: sha512-snJkC0RRFEQ7STIYbJVDrQzkRaU3b1cgM5PIrWx6elf79HA4Lm50sXbjpWJPsdwxfnvIKcpsAtBsDeR47iqnMQ==}
+  /turbo-darwin-64@1.9.2:
+    resolution: {integrity: sha512-SJq8LhrasKcsB5HOBJ5PT95F9pHwGd7yqmCtAY8ZECVzZVJcIyOcIZMbGec15SFVzKkAAYvVRAprBUtnZeTqkg==}
     cpu: [x64]
     os: [darwin]
     requiresBuild: true
     dev: true
     optional: true
 
-  /turbo-darwin-arm64@1.9.0:
-    resolution: {integrity: sha512-+4MDDtRdKe8VMG9YU7J3c6kokpKVV4ELw6iThtO7jwz5DiGy5eTKGNtr5kHkPk3SffUQ0DZTQ/YSJsBC+6LLlA==}
+  /turbo-darwin-arm64@1.9.2:
+    resolution: {integrity: sha512-qTNouzjmEDctwsLQr9ppefpV3//h9pDp2OePONd8bzqkH0qZcsJtLcGOA3W3wNaaahxdwZzEkOzso7kzNvFiXw==}
     cpu: [arm64]
     os: [darwin]
     requiresBuild: true
     dev: true
     optional: true
 
-  /turbo-linux-64@1.9.0:
-    resolution: {integrity: sha512-pEyj6VFo1RYwMqA6BLPHYViRIbE/R1KMAoQFW/qr9vTIT6kuMw1OiL0f/ZJ3AgY5V2mwGQT9Qg2HAH1CIEnH4Q==}
+  /turbo-linux-64@1.9.2:
+    resolution: {integrity: sha512-Xi5r1owPP5MrBAAsOwAqPjbUpD2/DIC/CtDAO/X+Hdeb0ZmpICzrcvHjsnp7f4yOc9JYuUH67RZQulTfU45evA==}
     cpu: [x64]
     os: [linux]
     requiresBuild: true
     dev: true
     optional: true
 
-  /turbo-linux-arm64@1.9.0:
-    resolution: {integrity: sha512-bwwa3X1ZzFkGsHsXDwAdW+akcKnGVNMmEtFULvh/2UALdslobttO7CiNBot7F+Sf5CfFZivYu5MEuYA/+Kvt7Q==}
+  /turbo-linux-arm64@1.9.2:
+    resolution: {integrity: sha512-g5NtUDoMzRHMnG9w1coAjMvscfcvgZODeuSqjy+hgnf4nw6fvF+bQI+BNOE66OFgwVZ1iACUSCzqjD42i8pPiA==}
     cpu: [arm64]
     os: [linux]
     requiresBuild: true
     dev: true
     optional: true
 
-  /turbo-windows-64@1.9.0:
-    resolution: {integrity: sha512-GMvbmXNHJVuLwbgqxQjXTFE4GHjzj3hVE+xZEKlEQWJ0cD+OGrVMqYMGxjVO5Ffbd3aHI9OECAmQw18qHWi1AA==}
+  /turbo-windows-64@1.9.2:
+    resolution: {integrity: sha512-2Hc+D11ajpujxTMsRkUo5gSlyqXXS1chf2GaKU4G0zuzBsfdvMdVCbNrHyoe8glGODICi72r3XVXJKTf9259xQ==}
     cpu: [x64]
     os: [win32]
     requiresBuild: true
     dev: true
     optional: true
 
-  /turbo-windows-arm64@1.9.0:
-    resolution: {integrity: sha512-oeePkdHoXit+rBzAT4iqn9hTUWXguKvqsZpJbFKr7JKLKtfeGwsXtyhCtkWIpBBQMT+hkGTBURMr9mHuS3sUPA==}
+  /turbo-windows-arm64@1.9.2:
+    resolution: {integrity: sha512-QaenrrHhej0EbDUwR4MG/8FP/jrjXjTT8t+f3o402HtlneZpDEAVNdL2fdwUW6CeLE0xH0kO+ZmmT3KZ09mHCg==}
     cpu: [arm64]
     os: [win32]
     requiresBuild: true
     dev: true
     optional: true
 
-  /turbo@1.9.0:
-    resolution: {integrity: sha512-W99+hwuisT/d9wcr5/KnAJYCQwm3xApbxLTLBRMOEti3iaweRSQIKFCVhdGccaDuu6b0zvE/4bTB6C3qJc8bgw==}
+  /turbo@1.9.2:
+    resolution: {integrity: sha512-L7Nuuq8hZRK9tMQj8zTE7SBs1j4WgM1Xv6Rwioq7ghPqUTR+UqdnAenEycAwU0XUZoKjxk94Z4VK+KzYccyD/w==}
     hasBin: true
     requiresBuild: true
     optionalDependencies:
-      turbo-darwin-64: 1.9.0
-      turbo-darwin-arm64: 1.9.0
-      turbo-linux-64: 1.9.0
-      turbo-linux-arm64: 1.9.0
-      turbo-windows-64: 1.9.0
-      turbo-windows-arm64: 1.9.0
+      turbo-darwin-64: 1.9.2
+      turbo-darwin-arm64: 1.9.2
+      turbo-linux-64: 1.9.2
+      turbo-linux-arm64: 1.9.2
+      turbo-windows-64: 1.9.2
+      turbo-windows-arm64: 1.9.2
     dev: true
 
   /type-check@0.3.2:
