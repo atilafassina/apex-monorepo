@@ -67,10 +67,10 @@ importers:
         version: 1.16.1(react-dom@18.2.0)(react@18.2.0)
       '@remix-run/vercel':
         specifier: 1.16.1
-        version: 1.16.1(@vercel/node@2.14.2)
+        version: 1.16.1(@vercel/node@2.14.3)
       '@vercel/node':
-        specifier: 2.14.2
-        version: 2.14.2
+        specifier: 2.14.3
+        version: 2.14.3
       react:
         specifier: 18.2.0
         version: 18.2.0
@@ -2390,14 +2390,14 @@ packages:
       set-cookie-parser: 2.5.1
       source-map: 0.7.4
 
-  /@remix-run/vercel@1.16.1(@vercel/node@2.14.2):
+  /@remix-run/vercel@1.16.1(@vercel/node@2.14.3):
     resolution: {integrity: sha512-cM7MqMJIpLp2YPCByrwLoBRalOpqcpVRZd8Q5DS1P3VzJ7VFXLHKLWszywCChVF/RZEtH1u31K0MVBorpM8FRQ==}
     engines: {node: '>=14'}
     peerDependencies:
       '@vercel/node': ^1.8.3 || ^2.4.0
     dependencies:
       '@remix-run/node': 1.16.1
-      '@vercel/node': 2.14.2
+      '@vercel/node': 2.14.3
     dev: false
 
   /@remix-run/web-blob@3.0.4:
@@ -2851,21 +2851,21 @@ packages:
     resolution: {integrity: sha512-17kVyLq3ePTKOkveHxXuIJZtGYs+cSoev7BlP+Lf4916qfDhk/HBjvlYDe8egrea7LNPHKwSZJK/bzZC+Q6AwQ==}
     dev: true
 
-  /@vercel/build-utils@6.7.2:
-    resolution: {integrity: sha512-STSWs66rxX5pVKkhsYNeLx/Vlxjwe+dhy6PfXgBEJua7FXbWDjXjUyjzEyk63yUWysUflEBtLW9ckS/2V0QCZw==}
+  /@vercel/build-utils@6.7.3:
+    resolution: {integrity: sha512-BCu5zX8MhzXAvd7X1Hn6b8blSTzKyY7JAEAdT5+FcB8e5fTs4bIQmYNc9JMeCqUgtisSpJvDAt69OLYP/aqEKw==}
     dev: false
 
   /@vercel/error-utils@1.0.8:
     resolution: {integrity: sha512-s+f7jP2oH1koICbQ8e3K9hOpOeUct7rbCnF9qsNwXemq850wAh2e90tp9R6oYBM0BNpiLRRm+oG5zD2sCIm3HQ==}
     dev: false
 
-  /@vercel/node@2.14.2:
-    resolution: {integrity: sha512-BPuMVO5ocTic6rgFyFfDbhdRwBLOfnJ0OYTtfiPF+cY1MNuG86ADWtA+6b3vPhxHC3uumcWfrhwLd9OTSYNfKw==}
+  /@vercel/node@2.14.3:
+    resolution: {integrity: sha512-XEoMTQvqQC11hItfDsTegtBA66jTFXA7PTyI2QHASpoAQFMGcx91XI/sTPvxgK/1u+eXjxpiv6OU3l4/i27G4Q==}
     dependencies:
       '@edge-runtime/vm': 2.0.0
       '@types/node': 14.18.33
       '@types/node-fetch': 2.6.3
-      '@vercel/build-utils': 6.7.2
+      '@vercel/build-utils': 6.7.3
       '@vercel/error-utils': 1.0.8
       '@vercel/static-config': 2.0.17
       async-listen: 3.0.0
