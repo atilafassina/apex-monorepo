@@ -71,10 +71,10 @@ importers:
         version: 1.17.0(react-dom@18.2.0)(react@18.2.0)
       '@remix-run/vercel':
         specifier: 1.17.0
-        version: 1.17.0(@vercel/node@2.15.0)
+        version: 1.17.0(@vercel/node@2.15.1)
       '@vercel/node':
-        specifier: 2.15.0
-        version: 2.15.0
+        specifier: 2.15.1
+        version: 2.15.1
       react:
         specifier: 18.2.0
         version: 18.2.0
@@ -2351,14 +2351,14 @@ packages:
       set-cookie-parser: 2.5.1
       source-map: 0.7.4
 
-  /@remix-run/vercel@1.17.0(@vercel/node@2.15.0):
+  /@remix-run/vercel@1.17.0(@vercel/node@2.15.1):
     resolution: {integrity: sha512-2lcEu1geaNhKQ9gDsffEJ/GOybhiY5z7Mfbt4wMsgQ6R3fnK51bfb+C50rdQFNJLxVnL98yRCpYYbvLlmyrDGA==}
     engines: {node: '>=14'}
     peerDependencies:
       '@vercel/node': ^1.8.3 || ^2.4.0
     dependencies:
       '@remix-run/node': 1.17.0
-      '@vercel/node': 2.15.0
+      '@vercel/node': 2.15.1
     dev: false
 
   /@remix-run/web-blob@3.0.4:
@@ -2820,8 +2820,8 @@ packages:
     resolution: {integrity: sha512-nsKy2sy+pjUWyKI1V/XXKspVzHMYgSalmj5+EsKWFXZbnNZicqxNtMR94J8Hs7SB4TQxh0s4KhczJtL59AVGMg==}
     dev: false
 
-  /@vercel/node@2.15.0:
-    resolution: {integrity: sha512-Wtvi0f45t7JIY8piFrlR26X7wAiezl8I6JybjkScY8jRvsSL2latbIaLHkggDwUY49DG9l+fIVmpcPcQvYSROA==}
+  /@vercel/node@2.15.1:
+    resolution: {integrity: sha512-TcncacgAnnrRlvuEWvZEOEP8BDuoDaEzMfMTpNa97Pj2vofYdGcXHVOVIGWrPPGh4TQoZQ48JlUTo4PfXgsOaA==}
     dependencies:
       '@edge-runtime/node-utils': 2.0.3
       '@edge-runtime/primitives': 2.1.2
