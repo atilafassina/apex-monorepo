@@ -52,8 +52,8 @@ importers:
         specifier: workspace:*
         version: link:../../packages/eslint-config-custom
       eslint-config-next:
-        specifier: 13.4.7
-        version: 13.4.7(eslint@8.44.0)(typescript@5.1.6)
+        specifier: 13.4.8
+        version: 13.4.8(eslint@8.44.0)(typescript@5.1.6)
       tsconfig:
         specifier: workspace:*
         version: link:../../packages/tsconfig
@@ -2030,8 +2030,8 @@ packages:
     resolution: {integrity: sha512-ZlbiFulnwiFsW9UV1ku1OvX/oyIPLtMk9p/nnvDSwI0s7vSoZdRtxXNsaO+ZXrLv/pMbXVGq4lL8TbY9iuGmVw==}
     dev: false
 
-  /@next/eslint-plugin-next@13.4.7:
-    resolution: {integrity: sha512-ANEPltxzXbyyG7CvqxdY4PmeM5+RyWdAJGufTHnU+LA/i3J6IDV2r8Z4onKwskwKEhwqzz5lMaSYGGXLyHX+mg==}
+  /@next/eslint-plugin-next@13.4.8:
+    resolution: {integrity: sha512-cmfVHpxWjjcETFt2WHnoFU6EmY69QcPJRlRNAooQlNe53Ke90vg1Ci/dkPffryJZaxxiRziP9bQrV8lDVCn3Fw==}
     dependencies:
       glob: 7.1.7
     dev: true
@@ -2729,7 +2729,7 @@ packages:
       debug: 4.3.4
       globby: 11.1.0
       is-glob: 4.0.3
-      semver: 7.3.7
+      semver: 7.5.3
       tsutils: 3.21.0(typescript@5.1.6)
       typescript: 5.1.6
     transitivePeerDependencies:
@@ -4274,8 +4274,8 @@ packages:
       source-map: 0.6.1
     dev: true
 
-  /eslint-config-next@13.4.7(eslint@8.44.0)(typescript@5.1.6):
-    resolution: {integrity: sha512-+IRAyD0+J1MZaTi9RQMPUfr6Q+GCZ1wOkK6XM52Vokh7VI4R6YFGOFzdkEFHl4ZyIX4FKa5vcwUP2WscSFNjNQ==}
+  /eslint-config-next@13.4.8(eslint@8.44.0)(typescript@5.1.6):
+    resolution: {integrity: sha512-2hE0b6lHuhtHBX8VgEXi8v4G8PVrPUBMOSLCTq8qtcQ2qQOX7+uBOLK2kU4FD2qDZzyXNlhmuH+WLT5ptY4XLA==}
     peerDependencies:
       eslint: ^7.23.0 || ^8.0.0
       typescript: '>=3.3.1'
@@ -4283,7 +4283,7 @@ packages:
       typescript:
         optional: true
     dependencies:
-      '@next/eslint-plugin-next': 13.4.7
+      '@next/eslint-plugin-next': 13.4.8
       '@rushstack/eslint-patch': 1.2.0
       '@typescript-eslint/parser': 5.59.2(eslint@8.44.0)(typescript@5.1.6)
       eslint: 8.44.0
@@ -7928,14 +7928,6 @@ packages:
   /semver@6.3.0:
     resolution: {integrity: sha512-b39TBaTSfV6yBrapU89p5fKekE2m/NwnDocOVruQFS1/veMgdzuPcnOM34M6CwxW8jH/lxEa5rBoDeUwu5HHTw==}
     hasBin: true
-
-  /semver@7.3.7:
-    resolution: {integrity: sha512-QlYTucUYOews+WeEujDoEGziz4K6c47V/Bd+LjSSYcA94p+DmINdf7ncaUinThfvZyu13lN9OY1XDxt8C0Tw0g==}
-    engines: {node: '>=10'}
-    hasBin: true
-    dependencies:
-      lru-cache: 6.0.0
-    dev: true
 
   /semver@7.5.3:
     resolution: {integrity: sha512-QBlUtyVk/5EeHbi7X0fw6liDZc7BBmEaSYn01fMU1OUYbf6GPsbTtd8WmnqbI20SeycoHSeiybkE/q1Q+qlThQ==}
