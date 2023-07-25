@@ -16,7 +16,7 @@
   },
   "devDependencies": {
     "@babel/core": "7.22.9",
-    "@types/node": "18.17.0",
+    "@types/node": "18.17.1",
     "@types/react": "18.2.16",
     "eslint": "8.45.0",
     "eslint-config-custom": "workspace:*",
