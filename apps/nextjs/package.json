@@ -9,7 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "next": "13.4.17",
+    "next": "13.4.18",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "ui": "workspace:*"
@@ -20,7 +20,7 @@
     "@types/react": "18.2.20",
     "eslint": "8.47.0",
     "eslint-config-custom": "workspace:*",
-    "eslint-config-next": "13.4.17",
+    "eslint-config-next": "13.4.18",
     "tsconfig": "workspace:*",
     "typescript": "5.1.6"
   }
