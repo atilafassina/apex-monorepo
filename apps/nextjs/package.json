@@ -22,6 +22,6 @@
     "eslint-config-custom": "workspace:*",
     "eslint-config-next": "13.4.19",
     "tsconfig": "workspace:*",
-    "typescript": "5.1.6"
+    "typescript": "5.2.2"
   }
 }
