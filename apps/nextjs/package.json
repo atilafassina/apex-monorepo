@@ -18,7 +18,7 @@
     "@babel/core": "7.22.17",
     "@types/node": "18.17.14",
     "@types/react": "18.2.21",
-    "eslint": "8.48.0",
+    "eslint": "8.49.0",
     "eslint-config-custom": "workspace:*",
     "eslint-config-next": "13.4.19",
     "tsconfig": "workspace:*",
