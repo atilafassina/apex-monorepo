@@ -15,7 +15,7 @@
     "ui": "workspace:*"
   },
   "devDependencies": {
-    "@babel/core": "7.22.17",
+    "@babel/core": "7.22.19",
     "@types/node": "18.17.15",
     "@types/react": "18.2.21",
     "eslint": "8.49.0",
