@@ -9,6 +9,7 @@
 - Setup ready for:
   - Next.js
   - Remix
+  - Any [Vite](https://vite.dev) based app.
   - Astro (coming soon 🚧)
 
 [![Open in Codeflow](https://developer.stackblitz.com/img/open_in_codeflow.svg)](https:///pr.new/atilafassina/apex-monorepo)
@@ -88,22 +89,6 @@ When creating a new internal package, it's important to set overrides for `pnpm`
 }
 ```
 
-## Remote Caching ☁️
-
-Besides local caching, Turbo can also cache build artifacts in the cloud and share across members of a team and environments. The quickest setup for Turbo's Remote Caching is with [Vercel](https://turborepo.org/docs/core-concepts/remote-caching#vercel).
-
-## Deploying Apps 🚀
-
-Remote Caching will skip processes when there are no changes. In order to make the best use of that, it is recommended to use Turbo as the task runner for every task in all environments.
-
-So, when deploying your apps it is important to override the inferred build tasks from the platform and run them from root. For example, usually your `build` script declared in `package.json` will run either `remix build` or `next build`. For the apps within an Apex Monorepo it's best to change directory back to root of the monorepo and run the task from there with the filter.
-
-For example, if your app is localted at `/apps/app-workspace-name` the build command in the server platform will be:
-
-```sh
-cd ../../ && pnpm build --filter app-workspace-name
-```
-
 ## Useful Links 📚
 
-- [Turborepo Docs](https://turborepo.org/docs)
+- [Nx Docs](https://nx.dev)
