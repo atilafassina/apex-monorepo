@@ -18,12 +18,12 @@
     "lint": "eslint src/*.ts*"
   },
   "peerDependencies": {
-    "@types/react": "18.2.40",
+    "@types/react": "18.2.41",
     "@types/react-dom": "18.2.17",
     "react": "18.2.0"
   },
   "devDependencies": {
-    "@types/react": "18.2.40",
+    "@types/react": "18.2.41",
     "@types/react-dom": "18.2.17",
     "eslint": "8.55.0",
     "eslint-config-custom": "workspace:0.0.0",
