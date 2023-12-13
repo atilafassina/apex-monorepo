@@ -43,8 +43,8 @@ importers:
         specifier: 18.19.3
         version: 18.19.3
       '@types/react':
-        specifier: 18.2.43
-        version: 18.2.43
+        specifier: 18.2.44
+        version: 18.2.44
       eslint:
         specifier: 8.55.0
         version: 8.55.0
@@ -95,8 +95,8 @@ importers:
         specifier: 1.19.3
         version: 1.19.3
       '@types/react':
-        specifier: 18.2.43
-        version: 18.2.43
+        specifier: 18.2.44
+        version: 18.2.44
       '@types/react-dom':
         specifier: 18.2.17
         version: 18.2.17
@@ -137,8 +137,8 @@ importers:
   packages/ui:
     devDependencies:
       '@types/react':
-        specifier: 18.2.43
-        version: 18.2.43
+        specifier: 18.2.44
+        version: 18.2.44
       '@types/react-dom':
         specifier: 18.2.17
         version: 18.2.17
@@ -2708,11 +2708,11 @@ packages:
   /@types/react-dom@18.2.17:
     resolution: {integrity: sha512-rvrT/M7Df5eykWFxn6MYt5Pem/Dbyc1N8Y0S9Mrkw2WFCRiqUgw9P7ul2NpwsXCSM1DVdENzdG9J5SreqfAIWg==}
     dependencies:
-      '@types/react': 18.2.43
+      '@types/react': 18.2.44
     dev: true
 
-  /@types/react@18.2.43:
-    resolution: {integrity: sha512-nvOV01ZdBdd/KW6FahSbcNplt2jCJfyWdTos61RYHV+FVv5L/g9AOX1bmbVcWcLFL8+KHQfh1zVIQrud6ihyQA==}
+  /@types/react@18.2.44:
+    resolution: {integrity: sha512-i7rRdWr8XsAdqVXU05NSlash6DapNLVoNnsfWfOYN2BUIzkH2YgagIeOuUK1fNmJ08iGHpt2enwi0beaBR+ldA==}
     dependencies:
       '@types/prop-types': 15.7.5
       '@types/scheduler': 0.16.2
