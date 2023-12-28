@@ -7,20 +7,20 @@
     "packages/*"
   ],
   "scripts": {
-    "build": "turbo build",
-    "dev": "turbo dev --parallel",
-    "lint": "turbo lint",
-    "test": "turbo test",
+    "build": "pnpm exec nx run-many --target=build",
+    "lint": "pnpm exec nx run-many --target=lint",
+    "test": "pnpm exec nx run-many --target=test",
+    "graph": "pnpm exec nx graph",
     "format": "prettier --write \"**/*.{ts,tsx,md}\""
   },
   "devDependencies": {
     "@changesets/cli": "2.27.1",
     "eslint-config-custom": "workspace:0.0.0",
     "prettier": "latest",
-    "turbo": "latest"
+    "nx": "latest"
   },
   "engines": {
-    "node": ">=16.0.0"
+    "node": ">=20.0.0"
   },
   "packageManager": "pnpm@8.13.1"
 }
