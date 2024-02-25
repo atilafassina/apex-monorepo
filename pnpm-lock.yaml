@@ -120,7 +120,7 @@ importers:
         version: 8.57.0
       eslint-config-prettier:
         specifier: ^8.5.0
-        version: 8.5.0(eslint@8.57.0)
+        version: 8.10.0(eslint@8.57.0)
       eslint-config-turbo:
         specifier: latest
         version: 1.10.14(eslint@8.57.0)
@@ -4418,8 +4418,8 @@ packages:
       - supports-color
     dev: true
 
-  /eslint-config-prettier@8.5.0(eslint@8.57.0):
-    resolution: {integrity: sha512-obmWKLUNCnhtQRKc+tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX+AuPj1YSGSQIHl1pnDHZR0Q==}
+  /eslint-config-prettier@8.10.0(eslint@8.57.0):
+    resolution: {integrity: sha512-SM8AMJdeQqRYT9O9zguiruQZaN7+z+E4eAP9oiLNGKMtomwaB1E9dcgUD6ZAn/eQAb52USbvezbiljfZUhbJcg==}
     hasBin: true
     peerDependencies:
       eslint: '>=7.0.0'
