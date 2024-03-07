@@ -19,12 +19,12 @@
   },
   "peerDependencies": {
     "@types/react": "18.2.64",
-    "@types/react-dom": "18.2.20",
+    "@types/react-dom": "18.2.21",
     "react": "18.2.0"
   },
   "devDependencies": {
     "@types/react": "18.2.64",
-    "@types/react-dom": "18.2.20",
+    "@types/react-dom": "18.2.21",
     "eslint": "8.57.0",
     "eslint-config-custom": "workspace:0.0.0",
     "eslint-plugin-react": "7.34.0",
