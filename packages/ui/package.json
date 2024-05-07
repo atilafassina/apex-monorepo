@@ -18,17 +18,17 @@
     "lint": "eslint src/*.ts*"
   },
   "peerDependencies": {
-    "@types/react": "18.2.74",
-    "@types/react-dom": "18.2.24",
-    "react": "18.2.0"
+    "@types/react": "18.3.1",
+    "@types/react-dom": "18.3.0",
+    "react": "18.3.1"
   },
   "devDependencies": {
-    "@types/react": "18.2.74",
-    "@types/react-dom": "18.2.24",
+    "@types/react": "18.3.1",
+    "@types/react-dom": "18.3.0",
     "eslint": "8.57.0",
     "eslint-config-custom": "workspace:0.0.0",
     "eslint-plugin-react": "7.34.1",
-    "react": "18.2.0",
+    "react": "18.3.1",
     "tsconfig": "workspace:0.0.0",
     "tsup": "6.7.0",
     "typescript": "5.4.5"
