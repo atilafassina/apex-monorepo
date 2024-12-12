@@ -40,8 +40,8 @@ importers:
         specifier: 7.24.5
         version: 7.24.5
       '@types/node':
-        specifier: 18.19.33
-        version: 18.19.33
+        specifier: 18.19.68
+        version: 18.19.68
       '@types/react':
         specifier: 18.3.1
         version: 18.3.1
@@ -2574,7 +2574,7 @@ packages:
     dependencies:
       '@types/http-cache-semantics': 4.0.1
       '@types/keyv': 3.1.4
-      '@types/node': 18.19.33
+      '@types/node': 18.19.68
       '@types/responselike': 1.0.0
     dev: true
 
@@ -2607,7 +2607,7 @@ packages:
     resolution: {integrity: sha512-ZUxbzKl0IfJILTS6t7ip5fQQM/J3TJYubDm3nMbgubNNYS62eXeUpoLUC8/7fJNiFYHTrGPQn7hspDUzIHX3UA==}
     dependencies:
       '@types/minimatch': 5.1.2
-      '@types/node': 18.19.33
+      '@types/node': 18.19.68
     dev: true
 
   /@types/hast@2.3.4:
@@ -2630,7 +2630,7 @@ packages:
   /@types/keyv@3.1.4:
     resolution: {integrity: sha512-BQ5aZNSCpj7D6K2ksrRCTmKRLEpnPvWDiLPfoGyhZ++8YtiK9d/3DBKPJgry359X/P1PfruyYwvnvwFjuEiEIg==}
     dependencies:
-      '@types/node': 18.19.33
+      '@types/node': 18.19.68
     dev: true
 
   /@types/mdast@3.0.10:
@@ -2654,7 +2654,7 @@ packages:
   /@types/node-fetch@2.6.3:
     resolution: {integrity: sha512-ETTL1mOEdq/sxUtgtOhKjyB2Irra4cjxksvcMUR5Zr4n+PxVhsCD9WS46oPbHL3et9Zde7CNRr+WUNlcHvsX+w==}
     dependencies:
-      '@types/node': 18.19.33
+      '@types/node': 18.19.68
       form-data: 3.0.1
     dev: false
 
@@ -2665,8 +2665,8 @@ packages:
   /@types/node@14.18.33:
     resolution: {integrity: sha512-qelS/Ra6sacc4loe/3MSjXNL1dNQ/GjxNHVzuChwMfmk7HuycRLVQN2qNY3XahK+fZc5E2szqQSKUyAF0E+2bg==}
 
-  /@types/node@18.19.33:
-    resolution: {integrity: sha512-NR9+KrpSajr2qBVp/Yt5TU/rp+b5Mayi3+OlMlcg2cVCfRmcG5PWZ7S4+MG9PZ5gWBoc9Pd0BKSRViuBCRPu0A==}
+  /@types/node@18.19.68:
+    resolution: {integrity: sha512-QGtpFH1vB99ZmTa63K4/FU8twThj4fuVSBkGddTp7uIL/cuoLWIUSL2RcOaigBhfR+hg5pgGkBnkoOxrTVBMKw==}
     dependencies:
       undici-types: 5.26.5
 
@@ -2690,7 +2690,7 @@ packages:
   /@types/responselike@1.0.0:
     resolution: {integrity: sha512-85Y2BjiufFzaMIlvJDvTTB8Fxl2xfLo4HgmHzVBz08w4wDePCTjYw66PdrolO0kzli3yam/YCgRufyo1DdQVTA==}
     dependencies:
-      '@types/node': 18.19.33
+      '@types/node': 18.19.68
     dev: true
 
   /@types/semver@7.5.0:
