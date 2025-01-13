@@ -20,7 +20,7 @@
     "@types/react": "18.3.18",
     "eslint": "8.57.1",
     "eslint-config-custom": "workspace:*",
-    "eslint-config-next": "13.5.7",
+    "eslint-config-next": "13.5.8",
     "tsconfig": "workspace:*",
     "typescript": "5.7.2"
   }
