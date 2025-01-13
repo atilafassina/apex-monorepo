@@ -43,8 +43,8 @@ importers:
         specifier: 18.19.70
         version: 18.19.70
       '@types/react':
-        specifier: 18.3.16
-        version: 18.3.16
+        specifier: 18.3.18
+        version: 18.3.18
       eslint:
         specifier: 8.57.1
         version: 8.57.1
@@ -95,11 +95,11 @@ importers:
         specifier: 1.19.3
         version: 1.19.3
       '@types/react':
-        specifier: 18.3.16
-        version: 18.3.16
+        specifier: 18.3.18
+        version: 18.3.18
       '@types/react-dom':
         specifier: 18.3.5
-        version: 18.3.5(@types/react@18.3.16)
+        version: 18.3.5(@types/react@18.3.18)
       eslint:
         specifier: 8.57.1
         version: 8.57.1
@@ -137,11 +137,11 @@ importers:
   packages/ui:
     devDependencies:
       '@types/react':
-        specifier: 18.3.16
-        version: 18.3.16
+        specifier: 18.3.18
+        version: 18.3.18
       '@types/react-dom':
         specifier: 18.3.5
-        version: 18.3.5(@types/react@18.3.16)
+        version: 18.3.5(@types/react@18.3.18)
       eslint:
         specifier: 8.57.1
         version: 8.57.1
@@ -2740,16 +2740,16 @@ packages:
     resolution: {integrity: sha512-JCB8C6SnDoQf0cNycqd/35A7MjcnK+ZTqE7judS6o7utxUCg6imJg3QK2qzHKszlTjcj2cn+NwMB2i96ubpj7w==}
     dev: true
 
-  /@types/react-dom@18.3.5(@types/react@18.3.16):
+  /@types/react-dom@18.3.5(@types/react@18.3.18):
     resolution: {integrity: sha512-P4t6saawp+b/dFrUr2cvkVsfvPguwsxtH6dNIYRllMsefqFzkZk5UIjzyDOv5g1dXIPdG4Sp1yCR4Z6RCUsG/Q==}
     peerDependencies:
       '@types/react': ^18.0.0
     dependencies:
-      '@types/react': 18.3.16
+      '@types/react': 18.3.18
     dev: true
 
-  /@types/react@18.3.16:
-    resolution: {integrity: sha512-oh8AMIC4Y2ciKufU8hnKgs+ufgbA/dhPTACaZPM86AbwX9QwnFtSoPWEeRUj8fge+v6kFt78BXcDhAU1SrrAsw==}
+  /@types/react@18.3.18:
+    resolution: {integrity: sha512-t4yC+vtgnkYjNSKlFx1jkAhH8LgTo2N/7Qvi83kdEaUtMDiwpbLAktKDaAMlRcJ5eSxZkH74eEGt1ky31d7kfQ==}
     dependencies:
       '@types/prop-types': 15.7.5
       csstype: 3.1.1
