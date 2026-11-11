@@ -8,7 +8,7 @@
     "lint": "eslint ."
   },
   "dependencies": {
-    "@remix-run/node": "1.19.3",
+    "@remix-run/node": "2.17.2",
     "@remix-run/react": "1.19.3",
     "@remix-run/vercel": "1.19.3",
     "@vercel/node": "2.15.10",
