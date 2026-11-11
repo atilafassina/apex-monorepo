@@ -17,9 +17,9 @@
     "ui": "workspace:*"
   },
   "devDependencies": {
-    "@remix-run/dev": "1.19.3",
-    "@remix-run/eslint-config": "1.19.3",
-    "@remix-run/serve": "1.19.3",
+    "@remix-run/dev": "2.17.5",
+    "@remix-run/eslint-config": "2.17.5",
+    "@remix-run/serve": "2.17.5",
     "@types/react": "18.3.31",
     "@types/react-dom": "18.3.7",
     "eslint": "8.57.1",
